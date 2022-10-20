@@ -106,9 +106,9 @@ app.post("/delete", (req, res) => {
 // app.listen(process.env.PORT, () => {
 //     console.log('Running on heroku server');
 // })
-const PORT = process.env.PORT || '3000';
-app.set("port",PORT);
+const port = process.env.PORT || 3000;
+// app.set("port",PORT);
 
-// app.listen(port, () => {
-//     console.log("App is running on port" + port);
-// });
+app.listen(port, () => {
+    console.log("App is running on port" + port);
+});
