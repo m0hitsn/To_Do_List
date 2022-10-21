@@ -55,3 +55,11 @@ input:checked+li {
     text-align: center;
     margin: 3vw;
 }
+@media screen and (max-width: 675px) {
+    .butt{
+        height: auto !important;
+    }
+    #list{
+        font-size: large;
+    }
+  }
