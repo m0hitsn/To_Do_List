@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require("mongoose");
 const _ = require("lodash");
-mongoose.connect('mongodb+srv://redak:redak123@cluster0.awcv0mb.mongodb.net/To_Do_listDB');
+mongoose.connect('mongodb+srv://redak:<password>@cluster0.awcv0mb.mongodb.net/To_Do_listDB');
 const app = express();
 app.set('view engine', 'ejs');
 app.use(express.static("public"));
